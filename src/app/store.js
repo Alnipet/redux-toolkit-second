@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import {configureStore} from '@reduxjs/toolkit'
+import imgDownloaderReducer from '../features/imgDownloader/imgDownloaderSlice'
 
 export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-});
+	reducer: {
+		imgDownloader: imgDownloaderReducer,
+	},
+})
